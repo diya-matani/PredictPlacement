@@ -109,7 +109,9 @@ st.markdown(
         transition: all 0.4s ease !important;
         display: block;
         margin: 2rem auto;
-        width: 50%;
+        width: auto !important;
+        min-width: 300px !important;
+        white-space: nowrap !important;
     }
     
     .stButton>button:hover {
